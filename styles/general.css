@@ -89,6 +89,11 @@ select {
 }
 
 /* UTILITIES CLASSES */
+
+.margin-bottom-lg {
+  margin-top: 6.4rem;
+}
+
 .margin-bottom-md {
   margin-bottom: 4.8rem;
 }

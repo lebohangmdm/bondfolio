@@ -288,6 +288,58 @@
   grid-row: 7;
 }
 
+/* SECTION TESTIMONIALS */
+.reviews {
+  font-size: 1.6rem;
+  margin-bottom: 4.8rem;
+}
+
+.reviews .link:link,
+.link:visited {
+  font-size: 1.6rem;
+}
+
+.secondary-heading {
+  font-size: 3.6rem;
+  line-height: 1.1;
+  font-weight: 400;
+  font-family: cursive;
+  color: #222;
+}
+
+.author {
+  margin-top: 4.8rem;
+  font-size: 1.4rem;
+}
+
+/* SECTION PRICES */
+.prices {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.price-box {
+  padding: 1.4rem 1.4rem 2.4rem 1.4rem;
+  border: 1px solid #999;
+  border-bottom: 0;
+}
+
+.price-box:last-child {
+  border-bottom: 1px solid #999;
+}
+
+.price-title,
+.price {
+  font-size: 2rem;
+  line-height: 1.8;
+}
+
+.price-img {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
 /* - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
 
