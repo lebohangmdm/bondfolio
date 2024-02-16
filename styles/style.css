@@ -109,6 +109,14 @@
   background-color: var(--clr-green-darker);
 }
 
+.link:link,
+.link:visited {
+  font-size: 1.8rem;
+  color: var(--clr-green-lighter);
+
+  text-underline-offset: 6px;
+}
+
 .options p {
   font-size: 1.2rem;
   color: #333;
@@ -170,6 +178,50 @@
 
 .text {
   font-size: 1.6rem;
+  color: #333;
+}
+
+/* ABOUT SECTION */
+
+.about-container {
+  max-width: 120rem;
+  margin-inline: auto;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3.2rem;
+}
+
+.about-text-box {
+  padding-inline: 3.2rem;
+}
+
+/* FEATURE SECTION */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 1.6rem;
+}
+
+.features div {
+  flex: 1 1 33.333%;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.icon {
+  width: 5.2rem;
+  height: 5.2rem;
+  color: var(--clr-green-lighter);
+  margin-inline: auto;
+}
+
+.features .title {
+  color: var(--clr-green-lighter);
 }
 
 /* - Font sizes (px)

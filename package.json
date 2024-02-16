@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^5.1.0"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.1"
   }
 }
