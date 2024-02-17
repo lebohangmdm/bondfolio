@@ -233,6 +233,7 @@
 .services {
   display: grid;
   grid-template-columns: 1fr;
+  margin-bottom: 2.4rem;
 }
 
 .service-box {
@@ -304,9 +305,9 @@
   font-size: 1.6rem;
 }
 
-.secondary-heading {
-  font-size: 3.6rem;
-  line-height: 1.1;
+.quotes-heading {
+  font-size: 3rem;
+  line-height: 1.2;
   font-weight: 400;
   font-family: cursive;
   color: #222;
@@ -335,7 +336,7 @@
 
 .price-title,
 .price {
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.8;
 }
 
@@ -348,6 +349,7 @@
 .shipping-text {
   font-size: 1.2rem;
   line-height: 1.6;
+  color: #333;
 }
 
 /* CTA SECTION */
@@ -379,6 +381,7 @@ input {
 ::placeholder {
   font-size: 1.8rem;
   color: var(--clr-green-darker);
+  text-align: center;
 }
 
 :focus {
@@ -390,7 +393,7 @@ input {
 
 .footer-nav-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   list-style: none;
   margin-bottom: 2.4rem;

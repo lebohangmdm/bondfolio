@@ -134,3 +134,8 @@ select {
 .blackish {
   color: #333;
 }
+
+.border {
+  border-bottom: 1px solid #cfcfcf;
+  padding-top: 2.4rem;
+}
