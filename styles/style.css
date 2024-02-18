@@ -245,6 +245,7 @@
   border: 1px solid #999;
   border-bottom: 0;
   padding: 1.4rem 1.4rem 2.4rem 1.4rem;
+  max-width: 720px;
   position: relative;
 }
 
