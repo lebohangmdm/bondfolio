@@ -78,6 +78,11 @@
   flex-direction: column-reverse;
 }
 
+.hero-img {
+  width: 60%;
+  margin-inline: auto;
+}
+
 .primary-heading {
   font-family: "Times New Roman", Times, serif;
   font-size: 3rem;
@@ -91,11 +96,12 @@
   font-size: 1.6rem;
   color: #333;
   line-height: 1.6;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.4rem;
 }
 
 .btn:link,
 .btn:visited {
+  display: inline-block;
   background-color: var(--clr-green-lighter);
   color: white;
   font-size: 1.8rem;
@@ -113,12 +119,11 @@
 .link:visited {
   font-size: 1.8rem;
   color: var(--clr-green-lighter);
-
   text-underline-offset: 6px;
 }
 
 .options {
-  margin-top: 3.2rem;
+  margin-top: 2.4rem;
 }
 
 .options p {
@@ -297,7 +302,7 @@
 /* SECTION TESTIMONIALS */
 .reviews {
   font-size: 1.6rem;
-  margin-bottom: 4.8rem;
+  margin-bottom: 3.2rem;
 }
 
 .reviews .link:link,
@@ -343,7 +348,8 @@
 .price-img {
   width: 120px;
   height: 120px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .shipping-text {

@@ -137,5 +137,5 @@ select {
 
 .border {
   border-bottom: 1px solid #cfcfcf;
-  padding-top: 2.4rem;
+  padding-block: 2.4rem;
 }
