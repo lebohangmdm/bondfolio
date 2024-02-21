@@ -41,14 +41,25 @@
   font-weight: 600;
   text-decoration: none;
   color: white;
+  transition: all 0.3s;
+}
+
+.logo:hover,
+.logo:active {
+  opacity: 0.8;
 }
 
 .nav-link:link,
 .nav-link:visited {
   font-size: 1.8rem;
   font-weight: 500;
-  color: var(--clr-brown-darker);
+  color: white;
   text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: var(--clr-brown-darker);
 }
 
 .btn-mobile-nav {
@@ -70,7 +81,7 @@
 
 /* HERO SECTION */
 .hero-section {
-  margin-block: 2.4rem 4.8rem;
+  padding-block: 2.4rem 4.8rem;
 }
 
 .hero {
@@ -138,10 +149,6 @@
 }
 
 /* HOW IT WORKS SECTION */
-
-.section {
-  margin-bottom: 7.4rem;
-}
 
 .title {
   font-size: 1.4rem;
@@ -246,7 +253,6 @@
   border-bottom: 0;
   padding: 1.4rem 1.4rem 2.4rem 1.4rem;
   max-width: 720px;
-  position: relative;
 }
 
 .service-box:last-child {
@@ -284,20 +290,20 @@
   gap: 2.4rem;
 }
 
-.product-text-box {
-  padding-inline: 3.2rem;
-}
-
-.product-img-box {
-  margin-inline: auto;
-}
-
 .product-img-box:nth-child(4) {
   grid-row: 3;
 }
 
 .product-img-box:nth-child(8) {
   grid-row: 7;
+}
+
+.product-text-box {
+  padding-inline: 3.2rem;
+}
+
+.product-img-box {
+  margin-inline: auto;
 }
 
 /* SECTION TESTIMONIALS */
@@ -316,7 +322,7 @@
   line-height: 1.2;
   font-weight: 400;
   font-family: cursive;
-  color: #222;
+  color: #111;
 }
 
 .author {
@@ -389,6 +395,7 @@ input {
   font-size: 1.8rem;
   color: var(--clr-green-darker);
   text-align: center;
+  background-color: white;
 }
 
 :focus {
@@ -398,10 +405,15 @@ input {
 
 /* footer */
 
+.footer {
+  margin-block: 4.8rem 1rem;
+}
+
 .footer-nav-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 1.6rem;
   list-style: none;
   margin-bottom: 2.4rem;
 }
@@ -412,6 +424,12 @@ input {
   font-weight: 600;
   color: var(--clr-green-lighter);
   text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  opacity: 0.9;
 }
 
 .copyright-box {
