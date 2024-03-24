@@ -33,11 +33,11 @@ It feels good to receive a compliment. What if you could recreate that feeling f
 
 
 ## Screenshots
-navigation
+* navigation <br />
 ![Navigation Screenshot](img/bondfolio-navigation.png)
-mobile
+* mobile <br />
 ![mobile Screenshot](img/bondfolio-mobile.png)
-desktop
+* desktop <br />
 ![desktop Screenshot](img/bondfolio-desktop.png)
 
 
