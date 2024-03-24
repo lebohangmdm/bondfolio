@@ -33,9 +33,12 @@ It feels good to receive a compliment. What if you could recreate that feeling f
 
 
 ## Screenshots
-![Navigation Screenshot](public/bondfolio-navigation.png)
-![mobile Screenshot](public/bondfolio-mobile.png)
-![desktop Screenshot](public/bondfolio-desktop.png)
+navigation
+![Navigation Screenshot](img/bondfolio-navigation.png)
+mobile
+![mobile Screenshot](img/bondfolio-mobile.png)
+desktop
+![desktop Screenshot](img/bondfolio-desktop.png)
 
 
 ## Technologies used
